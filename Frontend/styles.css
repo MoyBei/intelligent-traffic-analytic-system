@@ -1,0 +1,60 @@
+body {
+  font-family: Share Tech, Segoe UI, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  background-image: url("/bg.png");
+}
+
+h1 {
+	font-size: 45px;
+}
+
+button {
+	width: 10vw;
+	height: 5vh;
+	background-color: transparent;
+	color: white;
+	border: 3px solid white;
+	font-family: Share Tech
+}
+
+input {
+	font-family: Share Tech;
+	font-size: 15px;
+}
+
+.imgBoxWrapper {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftImgBox {
+  border: solid;
+  width: 45vw;
+  height: 50vh;
+}
+
+.rightImgBox {
+  border: solid;
+  border-left: none;
+  width: 45vw;
+  height: 50vh;
+}
+
+.inputImage {
+  max-height: 45vh;
+  max-width: 40vw;
+}
+
+.hiddenInput {
+  display: none;
+}
+
+.intelligentBlue{
+	color: #00cfcc
+}
+
+.systemOrange{
+	color: #ff9973
+}

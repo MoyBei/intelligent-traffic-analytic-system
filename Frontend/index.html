@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+  <center>
+    <h1>
+      <span class="intelligentBlue">Intelligent</span> Traffic Analytic <span class="systemOrange">System</span>
+    </h1>
+    <div class="imgBoxWrapper">
+      <div class="leftImgBox">
+          Input: 
+          <br>
+        <center><img id="inputImageDisplay" class="inputImage" /></center>
+      </div>
+      <div class="rightImgBox">
+          Output:
+          <br>
+        <center><img id="outputImageDisplay" class="inputImage" /></center>
+      </div>
+    </div>
+    <div>
+	<br><br>
+      <label for="fileInput">Select a file (Only PNG and JPG files are accepted):</label>
+      <input type="file" id="fileInput" name="files" onchange="updateSelectedImage(this)" accept="image/jpeg, image/png">
+      <br>
+      <label for="boundingBoxOption">
+        Draw bounding boxes:
+      </label>
+      <input type="checkbox" id="boundingBoxOption" name="drawBoundingBox" />
+      <br><br>
+      <button id="startButton" onclick="submitRequest()">
+        Start
+      </button>
+    </div></center>
+  </body>
+</html>
