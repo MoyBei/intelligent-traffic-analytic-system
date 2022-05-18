@@ -26,9 +26,6 @@ public class VehicleDetectionSystemWeb {
 
     private static final String testImageFolderPath = "E:\\Codes\\Frontend\\inputImages";
     private static final String outputImageFolderPath = "E:\\Codes\\Frontend\\outputImages";
-    private static final String testVideoPath = "E:\\Codes\\Java\\cdle-traininglabs-main\\my-first-dl4j-project\\src\\main\\not_resources\\test\\testvid1-10m-1.mp4";
-    private static final String outputVideoPath = "E:\\Codes\\Java\\cdle-traininglabs-main\\my-first-dl4j-project\\src\\main\\not_resources\\test\\testvid1-10m-1-counting.mp4";
-    private static final boolean isToRenderVideo = false;
     private static boolean isToRenderBBox;
 
     private static ModelTester tester;
