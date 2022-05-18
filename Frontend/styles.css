@@ -8,21 +8,21 @@ body {
 }
 
 h1 {
-	font-size: 45px;
+  font-size: 45px;
 }
 
 button {
-	width: 10vw;
-	height: 5vh;
-	background-color: transparent;
-	color: white;
-	border: 3px solid white;
-	font-family: Share Tech
+  width: 10vw;
+  height: 5vh;
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  font-family: Share Tech
 }
 
 input {
-	font-family: Share Tech;
-	font-size: 15px;
+  font-family: Share Tech;
+  font-size: 15px;
 }
 
 .imgBoxWrapper {
@@ -53,10 +53,10 @@ input {
   display: none;
 }
 
-.intelligentBlue{
-	color: #00cfcc
+.intelligentBlue {
+  color: #00cfcc
 }
 
-.systemOrange{
-	color: #ff9973
+.systemOrange {
+  color: #ff9973
 }
